@@ -24,7 +24,9 @@ public class Room_3buero extends AppCompatActivity implements View.OnKeyListener
         setContentView(R.layout.layout_main);
 
         et = (EditText)findViewById(R.id.editText);
-        et.setOnKeyListener(this);
+        if (et != null) {
+            et.setOnKeyListener(this);
+        }
 
         mainTV = (TextView)findViewById(R.id.mainTextView);
         setMainTV(getString(R.string.room3buero_start));

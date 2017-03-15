@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         //lE.lol();
 
-        if (levelPref.getString("level", "") == "3b"){
+        if (levelPref.getString("level", "").equals("3b")){
             nextLevel(Room_3buero.class);
         }
     }

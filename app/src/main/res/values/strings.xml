@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Dungeon</string>
+    <string name="action_settings">Settings</string>
+    <string name="start">Start</string>
+    <string name="title_activity_startroom">Startroom</string>
+    <string name="title_activity_main_commands">MainCommands</string>
+    <string name="action_invalid">Lass dir etwas besseres einfallen.</string>
+    <string name="action_failed">Hat leider nicht geklappt.</string>
+    <string name="action_stupid">Haha sehr witzig Spaßvogel!</string>
+    <string name="action_needless">Das ist überflüssig</string>
+    <string name="item_invalid">Ich glaube nicht, dass ich das brauche.</string>
+    <string name="cant_see">Ich kann nichts sehen.</string>
+
+    <!-- Raum 1 | Besenkammer -->
+
+    <string name="room1_start">Wo, wo bin ich? Was ist passiert? Ich sehe fast nur Dunkelheit. Mit wem rede ich überhaupt.
+        Außer mir ist hier doch niemand. Oder doch? \"Hallo?!\" Keine Antwort. Mhhh... Vielleicht rede ich einfach mit mir selbst.
+        Dann werde ich nicht so schnell verrückt. Oder macht mich das erst verrückt? Egal, Gehirn ich verlasse mich jetz ganz auf dich. Sag mir,
+        was ich machen soll. Am besten, in dem du mir entweder eine Aktion mitteilst (z.B.: \"umgucken\"), oder erst das Objekt nennst, auf
+        das du die Aktion anwenden willst und dann die Aktion (z.B.: \"tür öffnen\"). Am besten alles klein schreiben. Und umgucken ist hier bestimmt
+        sehr wichtig.</string>
+    <string name="room1_description">Es ist extrem dunkel hier drin. Ich seh nur einen schmalen Streifen Licht etwas weiter unten am Boden.
+        sieht aus, als wenn dort eine Tür wäre.</string>
+    <string name="room1_hallo">\"Hallo?!\" Mmhh.. scheind niemand hier zu sein.</string>
+    <string name="room1_tanz">Warum sollte ich denn tanzen?</string>
+    <string name="room1_tuer">Okay ich stehe jetzt vor der Tür.</string>
+    <string name="room1_licht">Ein kleiner Lichtspalt. Whrscheinlich von einer Tür. Vielleicht sollte ich gucken, was dahinter ist.</string>
+    <string name="room1_geh">Au! Toll jetzt habe ich mich an einer Wand gestoßen.</string>
+
+    <!-- Raum 2 | Flur -->
+
+    <string name="title_activity_room_2">Room_2</string>
+    <string name="room2_start">Okay ich sehe einen Flur. Dieses mal mit drei Türen.
+    Also, wenn das die ganze Zeit so läuft, dann wird das Ganze hier ziemlich langweilig.</string>
+    <string name="room2_description">Es ist ein Flur mit drei Türen. Seltsam, dass hier keine Treppe oder ein Fenster oder so ist.
+        Auf dem Boden ist ein roter langer Teppich. Naja auf der einen Tür steht
+        \"Schlafzimmer\", auf der anderen \"Büro\" und auf der dritten \"Vergnügungszimmer\". In welches Zimmer soll ich jetzt gehen?</string>
+    <string name="room2_vergnuegungszimmer">Ja das klingt am besten ;) Mmhh... Anscheinend ist sie verschlossen. Schade.</string>
+    <string name="room2_tueren">Auf der einen Tür steht
+        \"Schlafzimmer\", auf der anderen \"Büro\" und auf der dritten \"Vergnügungszimmer\". In welches Zimmer soll ich jetzt gehen?</string>
+    <string name="room2_tuer">In welches Zimmer soll ich gehen? Ins Büro, ins Schlafzimmer oder ins Vergnügungszimmer?</string>
+    <string name="room2_treten">SH*T! Mein Fuß! Das war eine dämliche Idee!</string>
+
+    <!-- Raum 3 | Büro -->
+
+    <string name="title_activity_room_3buero">Room_3buero</string>
+    <string name="room3buero_start">*Hust* Es ist staubig hier drinnen, aber ein gewöhnliches Arbeitszimmer. Zumindest sieht es so aus...</string>
+    <string name="room3buero_description">Ein simples Büro. Ein großer Schreibtisch, ein Bücherregal und ein Fenster und an der Wand hängt
+         noch eine Uhr. Alles ziemlich verstaubt.</string>
+    <!-- Uhr -->
+    <string name="room3buero_uhr_angucken1">Eine verstaubte Wanduhr. Aus Holz und schön verziert.</string>
+    <string name="room3buero_uhr_angucken2">Jedoch scheint die Uhr nicht weiter zu laufen. Seltsamerweise ist das Glas vor den Zeigern nicht verstaubt.
+        Aber vielleicht könnte ich die Uhrzeit umstellen...</string>
+    <string name="room3buero_uhr_zeitumstellen">Welche Zeit soll ich einstellen?</string>
+    <string name="room3buero_uhr_zeitbestaetigt">Okay, die Uhrzeit ist nun </string>
+    <string name="room3buero_uhr_zeitfehlgeschlagen">Die Uhzeit kann ich leider nicht einstellen.</string>
+    <string name="time1">Die Uhrzeit ist </string>
+    <string name="time2">Uhr.</string>
+    <!-- Schreibtisch -->
+    <string name="room3buero_schreibtisch_angucken">Ein großer und wahrscheinlich schwerer Schreibtisch aus Holz. Natürlich verstaubt.
+     Auf dem Schreibtisch liegen nur ein paar verstaubte Notizblöcke und Stifte.</string>
+    <string name="room3buero_schreibtisch_durchsuchen">Nur ein paar leere verstaubte Notizblöcke und Stifte.</string>
+    <!-- Bücherregal -->
+    <string name="room3buero_regal_angucken">Ein, wie alles in diesem Raum, verstaubtes Bücherregal. MMhh es ist zwar voll mit Büchern, jedoch hat
+     keines der Bücher einen Titel an der Seite stehen.</string>
+    <string name="room3buero_regal_action">MMhh nichts lässt sich bewegen. Es scheint, als ob das Regal nur eine Hülle wäre.</string>
+    <!-- Fenster -->
+    <string name="room3buero_fenster_angucken">Das Fenster ist ein Mosaik. Die Farben sind etwas schwer zu erkennen, da kein Licht von hinten
+     durchscheind. Es ist wahrscheinlich Nacht. Sieht aber nicht so aus, als wenn das Mosaik ein Muster oder Bild ergibt.</string>
+    <string name="room3buero_fenster_oeffnen">Es lässt sich nicht öffnen.</string>
+    <string name="room3buero_fenster_zerschlagen">Warum sollte ich das machen? Es ist laut und ich würde mich wahrscheinlich verletzen.</string>
+
+    <!-- Raum 3 | Schlafzimmer -->
+
+    <string name="title_activity_room_3schlafzimmer">Room_3schlafzimmer</string>
+    <string name="room3schlafzimmer_start">Ein minimalistisch eingerichtetes Schlafzimmer. Sieht aus, als wäre hier vor kurzem Jemand gewesen.</string>
+    <string name="room3schlafzimmer_description">Es is nichts besonderes hier. Ein Bett, ein Nachttisch mit einer Lampe darauf
+     und ein Fenster. Wahrscheinlich ist es ein Gästezimmer.</string>
+    <!-- Bett -->
+    <string name="room3schlafzimmer_bett_angucken">Ein Holzbett, bezogen mit einer roten Decke.</string>
+    <string name="room3schlafzimmer_bett_hinlegen">Nein, ich bin nicht müde.</string>
+    <!-- Nachttisch -->
+    <string name="room3schlafzimmer_nachttisch_angucken">Ein kleiner Holznachttisch. Maximal einen halben Meter groß. Hat nur eine Schublade
+     und es steht eine Lampe darauf.</string>
+    <string name="room3schlafzimmer_nachttisch_durchsuchen">Es liegt eine ausgerissene Notiz darin.</string>
+    <!-- Lampe -->
+    <string name="room3schlafzimmer_lampe_angucken">Eine einfache Nachttischlampe. Das Licht ist an.</string>
+    <string name="room3schlafzimmer_lampe_ausschalten">Die Lampe ist aus und das Zimmer dunkel.</string>
+    <string name="room3schlafzimmer_lampe_einschalten">Die Lampe ist an und das Zimmer wieder erleuchtet.</string>
+    <!-- Fenster -->
+    <string name="room3schlafzimmer_fenster_angucken">Das Fenster ist ein Mosaik. Die Farben sind etwas schwer zu erkennen, da kein Licht von hinten
+     durchscheind. Es ist wahrscheinlich Nacht. Sieht aber nicht so aus, als wenn das Mosaik ein Muster oder Bild ergibt.</string>
+    <string name="room3schlafzimmer_fenster_oeffnen">Es lässt sich nicht öffnen.</string>
+    <string name="room3schlafzimmer_fenster_zerschlagen">Warum sollte ich das machen? Es ist laut und ich würde mich wahrscheinlich verletzen.</string>
+    <!-- Notiz -->
+    <string name="room3schlafzimmer_notiz_lesen">Dort steht: \"Stunde 36. Ich weiß nicht, wo hier der Ausgang ist.
+        Er ist immer noch nicht zurück. Es ist jetzt 01:36 Uhr. Warte, öffnet sich da gerade ein Ausgang?\"</string>
+    <!-- Geheimgang -->
+    <string name="room3schlafzimmer_secret_open">Ein Geheimgang hinter dem Regal hat sich geöffnet.</string>
+    <string name="room3schlafzimmer_secret_alreadyopen">Der Gang ist bereits offen.</string>
+    <string name="room3schlafzimmer_secret_angucken">Der Gang sieht aus, wie ein Loch in der Wand wo das Regal stand.</string>
+    
+    <string name="title_activity_set_time">SetTime</string>
+    <string name="title_activity_level_example">LevelExample</string>
+
+
+</resources>

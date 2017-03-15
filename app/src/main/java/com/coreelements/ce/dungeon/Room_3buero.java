@@ -74,6 +74,8 @@ public class Room_3buero extends AppCompatActivity implements View.OnKeyListener
         }
     }
 
+
+
     public void openSecretFloor(){
         if (sharedPref.getString("time", "null").contentEquals("01:36")){
             secretEditor.putBoolean("secret", true);
